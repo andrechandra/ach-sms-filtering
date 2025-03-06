@@ -30,8 +30,8 @@ A modern, feature-rich starter template built with Next.js, Tailwind CSS, TypeSc
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/andrechandra/next-tailwind-starter.git
-cd next-tailwind-starter
+git clone https://github.com/andrechandra/ach-sms-filtering.git
+cd ach-sms-filtering
 ```
 
 2. Install dependencies:
@@ -91,7 +91,7 @@ git commit -m "Your message" --no-verify
 
 This template is ready to be deployed to Vercel. Click the button below to deploy:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/andrechandra/next-tailwind-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/andrechandra/ach-sms-filtering)
 
 ## 🤝 Contributing
 

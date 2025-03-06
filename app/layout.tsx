@@ -4,6 +4,7 @@ import { siteConfig } from '@/constants/site-config'
 import { fonts } from '@/lib/fonts'
 import { Analytics } from '@vercel/analytics/react'
 import { ThemeProvider } from '@/components/theme-provider'
+import { Toaster } from '@/components/ui/sonner'
 
 export const generateMetadata = (): Metadata => ({
   metadataBase: new URL(siteConfig.url),
@@ -51,6 +52,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Toaster />
         </ThemeProvider>
         <Analytics />
       </body>

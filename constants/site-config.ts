@@ -1,7 +1,7 @@
 export const siteConfig = {
-  title: 'Next.js + Tailwind CSS Starter Template',
+  title: 'AI SMS Filtering',
   description:
-    'A starter template with Next.js, Tailwind CSS, TypeScript, and shadcn/ui',
+    'Next.js application that can analyze SMS messages and detect potential scams using AI.',
   keywords: [
     'nextjs',
     'tailwindcss',
@@ -9,6 +9,10 @@ export const siteConfig = {
     'shadcn',
     'starter',
     'template',
+    'sms-filtering',
+    'scam-detection',
+    'open-ai',
+    'sms-scam-detection',
   ],
-  url: 'https://next-shadcn-starter-template.vercel.app/',
+  url: 'https://ach-sms-filtering.vercel.app/',
 }
